@@ -4,7 +4,7 @@ Windows 10 Pro with:
 - Spot pricing on Azure meaning machine is only active when space is available. You can go for a lower per hour spot price, but for $0.10/hr you can have a machine that generally won't be ejected. 
 https://azure.microsoft.com/en-us/pricing/spot/
 "With Azure Spot Virtual Machines (Spot VMs), you can access unused Azure compute capacity at deep discounts—up to 90 percent compared to pay-as-you-go prices.* You pay up to the maximum price that you optionally agree to in advance."
-- Creates a VNet where you can specify the Ip Range, useful as the default Azure range 10.0.0.x is often used by other products and can cause conflicts.
+- Non-standard range IP, useful as the default Azure IP 10.0.0.x can be used by other products and cause conflicts.
 - Automatic shutdown: even though spot pricing is quite inexpensive, automatic shutdown prevents your VM from running continuously if you get distracted by something else.
 - Chocolatey software Package manager installed. Why install software manually when you can script it? https://chocolatey.org/
 - Latest Google Chrome browser and Microsoft Visual Studio Code auto installed with Chocolatey.
