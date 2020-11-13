@@ -18,7 +18,7 @@
         },
         "windows10Sku": {
             "type": "string",
-            "defaultValue": "20h1-pro-g2",
+            "defaultValue": "20h2-pro-g2",
             "metadata": {
                 "description": "Windows 10 Version Sku"
             }
