@@ -1,3 +1,5 @@
+John Carmichael wrote Azure ARM script to deploy VM with Choco, choco installs, spot pricing, auto shut down, etc.
+
 Windows 10 Desktop VM Deploy with this script. Run script or activate via clicking button below.
 
 Windows 10 Pro with:
